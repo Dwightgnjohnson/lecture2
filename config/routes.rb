@@ -1,6 +1,15 @@
 Lecture2::Application.routes.draw do
 
 
+  get "page/home"
+  get "page/about_us"
+  get "page/contact_us"
+  get "page/products"
+  get "page/newsletter"
+  get "page/blog"
+  get "page/calendar"
+  get "page/articles"
+  get "page/login"
   get "dwight/teach"
   get "dwight/speak"
   get "dwight/dig"
