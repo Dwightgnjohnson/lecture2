@@ -1,14 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Lecture2</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <meta charset="utf-8" />
+  <title>Lecture</title>
+  <%= stylesheet_link_tag    "application", media: "screen", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
+<div id="wrapper" class="col_100.wrap"><!-- #wrapper -->
 
+  <header class="col_100.wrap"><!-- header -->
+    <h1 class="col_100 logo">Cowboy Up</h1>
+    <h2 class="col_100 center">Where the buffalo roam</h2>
+    <br>
+    <%= image_tag "cowboyup.jpg", :class => "col_100", :alt => "Dave's a Cowboy" %><!-- header image -->
+  </header><!-- end of header -->
+
+  <%= render :partial => 'shared/nav', :class => 'col_100' %>
+
+  <section id="main" class="col_100.wrap"><!-- #main content and sidebar area -->
+    <section id="container"><!-- #container -->
+      <section id="content" class="col_66 yield"><!-- #content -->
 <%= yield %>
+      </section><!-- end of #content -->
+    </section><!-- end of #container -->
 
+    <aside id="sidebar" class="col_33"><!-- sidebar -->
+      <h3>Things To Do</h3>
+      <ul>
+        <li><a href="#">Play Games</a></li>
+        <li><a href="#">Chat With Friends</a></li>
+        <li><a href="#">Swap Stories</a></li>
+        <li><a href="#">Sell Stuff</a></li>
+        <li><a href="#">Buy Stuff</a></li>
+        <li><a href="#">Trade Stuff</a></li>
+      </ul>
+
+      <h3>Our Sponsors</h3>
+      <%= image_tag "ad125.jpg" %><%= image_tag "ad125.jpg" %><br />
+      <%= image_tag "ad125.jpg" %><%= image_tag "ad125.jpg" %><br /><br />
+
+      <h3>Connect With Us</h3>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+      </ul>
+
+    </aside><!-- end of sidebar -->
+
+  </section><!-- end of #main content and sidebar-->
+
+  <footer class="col_100 footer">
+    <section id="">
+
+      <section id="footer-outer-block">
+        <aside id="first" class="col_25">
+          <h3>Blogroll</h3>
+          <ul>
+            <li><a href="#">one linkylink</a></li>
+            <li><a href="#">two linkylinks</a></li>
+            <li><a href="#">three linkylinks</a></li>
+            <li><a href="#">four linkylinks</a></li>
+            <li><a href="#">five linkylinks</a></li>
+          </ul>
+        </aside><!-- end of #first footer segment -->
+
+        <aside id="second" class="col_25">
+          <h3>Awesome Stuff</h3>
+          <ul>
+            <li><a href="#">one linkylink</a></li>
+            <li><a href="#">two linkylinks</a></li>
+            <li><a href="#">three linkylinks</a></li>
+            <li><a href="#">four linkylinks</a></li>
+            <li><a href="#">five linkylinks</a></li>
+          </ul>
+        </aside><!-- end of #second footer segment -->
+
+        <aside id="third" class="col_25">
+          <h3>Coolness</h3>
+          <ul>
+            <li><a href="#">one linkylink</a></li>
+            <li><a href="#">two linkylinks</a></li>
+            <li><a href="#">three linkylinks</a></li>
+            <li><a href="#">four linkylinks</a></li>
+            <li><a href="#">five linkylinks</a></li>
+          </ul>
+        </aside><!-- end of #third footer segment -->
+
+        <aside id="fourth" class="col_25">
+          <h3>Blahdyblah</h3>
+          <p>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+        </aside><!-- end of #fourth footer segment -->
+
+      </section><!-- end of #footer-outer-block -->
+
+    </section><!-- end of #footer-area -->
+  </footer>
+
+</div><!-- #wrapper -->
+<!-- Free template created by http://freehtml5templates.com -->
 </body>
 </html>

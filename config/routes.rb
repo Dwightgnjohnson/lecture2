@@ -1,5 +1,14 @@
 Lecture2::Application.routes.draw do
+
+
+  get "dwight/teach"
+  get "dwight/speak"
+  get "dwight/dig"
+
   get "say/hello"
+  get "say/goodbye"
+  get "say/something"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
