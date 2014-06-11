@@ -42,15 +42,17 @@ ul li, ol li {
 }
 
 .menu_main {
-  width:50%;
-  float:right;
-  text-align:right;
-  margin:0.3em 0 0 0;
+  width:100%;
+  display: block;
+  text-align:left;
+  background-color: darkgray;
 }
 
 .menu_main li {
   display:inline-block;
-  margin:0 0 0 7px;
+  margin:0 0 0 6%;
+  padding: 1% 0;
+  font-weight: bold;
 }
 
 .menu_main li.active,
@@ -64,11 +66,7 @@ ul li, ol li {
   padding:0 0 1em 2%;
 }
 
-.footer {
-  border-top:1px solid #ff0000;
-  padding:2em 2% 3em 2%;
-  color:#666;
-}
+
 
 .copyright {
   width:49%;
@@ -86,7 +84,6 @@ ul li, ol li {
 }
 .menu_bottom li {
   display:inline-block;
-  margin:0 0 0 7px;
 }
 .menu_bottom li.active,
 .menu_bottom li.active a {
@@ -202,7 +199,22 @@ a.button:active,
   box-shadow:#666 1px 1px 2px;
 }
 
+.current_page {
+  background-color: #000000;
+
+}
+
 @media only screen and (max-width:480px) { /* Smartphone custom styles */
+  .menu_main li {
+    border-bottom: thin solid black;
+    margin:0 0 0 2%;
+    display:block;
+    padding:0;
+    margin:0;
+  }
+ .menu_main li:first-of-type {
+   border-top: thin solid black;
+  }
 }
 
 @media only screen and (max-width:768px) { /* Tablet */
