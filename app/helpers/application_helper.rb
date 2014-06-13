@@ -6,4 +6,6 @@ module ApplicationHelper
       return link_to click_text, url
     end
   end
+
+
 end
