@@ -3,7 +3,7 @@ Lecture2::Application.routes.draw do
 
   get "home" => "page#home"
   get "about_us" => "page#about_us"
-  get "contact_us" => "page#contact_us"
+  match "contact_us" => "page#contact_us", :via => [:post, :get]
   get "products" => "page#products"
   get "newsletter" => "page#newsletter"
   get "blog" => "page#about_us"

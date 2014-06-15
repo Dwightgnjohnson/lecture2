@@ -1,1 +1,21 @@
 <h1>Page#contact_us</h1>
+
+<div class="warning">
+  Your name is: <%= @name %><br>
+  Your email is: <%= @email %>
+</div>
+
+<!--<pre>
+<% params.each do |key, value| %>
+    <%= key + " ==> " + value %>
+<% end %>
+</pre>-->
+
+<%= @error_msg %>
+<%= form_for contact_us_path, :mothod => "POST" do %>
+    <%= label_tag :name, "Your Name:" %> <%= text_field_tag :name, @name %><br>
+    <%= label_tag :email, "Your Email:" %> <%= email_field_tag :email, @email %><br>Your email is: <%= @email %><br>
+    <%= submit_tag "Submit" %>
+<% end %>
+
+

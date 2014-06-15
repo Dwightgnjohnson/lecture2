@@ -5,12 +5,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LectureBroken/app/assets/images/ad125.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LectureBroken/app/assets/images/bonfire.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LectureBroken/app/assets/images/cowboyup.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_nav.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/page/calendar.html.erb" afterPath="$PROJECT_DIR$/app/views/page/calendar.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/page/contact_us.html.erb" afterPath="$PROJECT_DIR$/app/views/page/contact_us.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/page_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/page_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/page_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/page_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="lecture2.iws" />
@@ -23,8 +19,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/lecture2@routes__lecture2.coverage" NAME="routes: lecture2 Coverage Results" MODIFIED="1402698127756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lecture2" />
-    <SUITE FILE_PATH="coverage/lecture2@Development__lecture2.coverage" NAME="Development: lecture2 Coverage Results" MODIFIED="1402698521164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lecture2" />
+    <SUITE FILE_PATH="coverage/lecture2@routes__lecture2.coverage" NAME="routes: lecture2 Coverage Results" MODIFIED="1402701434844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lecture2" />
+    <SUITE FILE_PATH="coverage/lecture2@Development__lecture2.coverage" NAME="Development: lecture2 Coverage Results" MODIFIED="1402701702870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lecture2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,8 +37,28 @@
       <file leaf-file-name="contact_us.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/page/contact_us.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.6837607" vertical-offset="0" max-vertical-offset="405">
+              <caret line="16" column="57" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/page_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -75,10 +91,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/Bskin.css.scss" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/page/calendar.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/page_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_nav.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/helpers/page_helper.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/page_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/page/contact_us.html.erb" />
       </list>
     </option>
@@ -91,9 +107,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
+    <option name="x" value="403" />
     <option name="y" value="22" />
-    <option name="width" value="809" />
+    <option name="width" value="1037" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -327,7 +343,7 @@
       <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.routes: lecture2">
+  <component name="RunManager" selected="Rails.Development: lecture2">
     <configuration default="false" name="routes: lecture2" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="lecture2" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -617,7 +633,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="22" width="809" height="874" extended-state="6" />
+    <frame x="403" y="22" width="1037" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -810,26 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/page_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/page/calendar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3146853" vertical-offset="0" max-vertical-offset="1215">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -850,10 +850,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/page_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/page/contact_us.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.6837607" vertical-offset="0" max-vertical-offset="405">
+          <caret line="16" column="57" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="57" />
           <folding />
         </state>
       </provider>
